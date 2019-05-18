@@ -1,0 +1,7 @@
+{
+  "configuration": {
+    "url": "https://github.com/radaron/raspicar_configuration.git",
+    "version": "master",
+    "path": "../configuration"
+  }
+}
