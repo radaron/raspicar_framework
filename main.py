@@ -26,7 +26,7 @@ class Loader:
 
         # Update the system dependent python packages
         self.sysPackageManager = Updater(os.path.abspath(os.path.join(
-            os.path.dirname(__file__), "configuration/update_manager.json")))
+            os.path.dirname(__file__), "configuration/package_manager.json")))
         update_ret, update_message = self.sysPackageManager.run_update()
         if update_ret:
             self.logger.info("Packages updated successfully.")
